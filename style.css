@@ -1,0 +1,484 @@
+nav
+{
+  background-color: white;
+  margin-bottom: 0px;
+}
+body
+{
+    margin: 0px;
+}
+
+
+span img
+{
+    text-align: left;
+    width: 40px;
+    height: 40px;
+    position: relative;
+    bottom: -19px;
+    right: -28px;  
+}
+
+   
+.button
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    background-color: rgb(170, 210, 54);
+    color: white;
+    padding: 8px 34px;
+    border: none;
+    border-radius: 4px;
+    position: relative;
+    top: -8px;
+    cursor: pointer;
+}
+.right-items
+{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-left: 780px;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-weight: 600;
+    font-size: 14px;
+    position: relative;
+    top: -24px;
+    cursor: pointer;
+}
+
+.main-bg
+{
+    display:inline-block;
+    vertical-align: top;
+    width:100%;
+    height:100vh;
+    background-image: url("https://edyoda.s3.ap-south-1.amazonaws.com/public/landing-background.png");
+    background-position: left;
+    background-size:cover;
+    position: relative;
+}
+
+.main-title
+{
+    font-family: 'Poppins', sans-serif;
+    text-align:center;
+    line-height: 1.2;
+    font-size: 40px;
+    letter-spacing: 8.8px;
+    height: 90px;
+    width: 900px;
+    position: relative;
+    left: 240px;
+    bottom: -84px;
+}
+
+.main-desc
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    font-weight: 400;
+    color: #8b8b99;
+    text-align: center;
+    height: 60px;
+    width: 1100px;
+    margin: auto;
+    position: relative;
+    bottom: -160px;
+}
+.steps-wraps
+{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    row-gap: 2px;
+    height: 500px;
+    justify-content: space-evenly;
+}
+#img
+{  
+    font-size: 96px;
+    color: white;
+    position: relative;
+    right: -120px;
+    top: 40px;
+}
+
+#img:hover
+{
+    transform: scale(1.2);
+    transition-timing-function: ease-in;
+    transition-duration: 0.3s;
+}
+.desc-sec
+{
+    width: 280px;
+    height: 160px;
+    position: relative;
+    top: 60px;
+    margin-left: 25px;
+    text-align: center;
+}
+
+.step-head
+{
+    font-weight: 600;
+    font-size: 24px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 60px;
+}
+
+.step-desc
+{
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+    color: white; 
+}
+.step1
+{
+    background-color: #5acda6;
+    
+}
+
+.step2
+{
+    background-color: #91ac41;
+}
+.step3
+{
+    background-color: #e4b476;
+}
+.step4
+{
+    background-color: #f69dad;
+}
+
+
+.main-sec2-1
+{
+    background-color: #f7eee2;
+    height: 600px;
+    display: block;
+    width: 100%;
+    padding-top: 75px;
+    text-align: center; 
+    position: relative;
+}
+
+.head-1
+{
+    color: #91ac41;
+    font-size: 24px;
+    margin: 0px;
+    margin-top: 10px;
+    font-family: 'Caveat', cursive;
+    position: absolute;
+    right:650px;
+}
+
+#head-2-title
+{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 44px;
+    position: absolute;
+    left: 480px;
+    top: 60px;
+}
+
+#head-2-desc
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    color: #8b8b99;
+    position: absolute;
+    top: 180px;
+    left: 450px;
+}
+
+.main-sec2-2
+{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 200px;
+    height: 400px;
+    position: relative;
+    
+}
+
+.sec2-div1 
+{
+    background-color: #e3b375;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    margin: auto;
+    margin-top: 0px;
+    padding-top: 20px;
+    height: 80px;
+    width: 100px;
+    border-radius: 50px;
+    
+}
+
+.sec2-div2 
+{
+    background-color: #e3b375;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    margin: auto;
+    margin-top: 0px;
+    padding-top: 20px;
+    height: 80px;
+    width: 100px;
+    border-radius: 50px;
+}
+
+.sec2-div3 
+{
+    background-color: #e3b375;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    margin: auto;
+    margin-top: 0px;
+    padding-top: 20px;
+    height: 80px;
+    width: 100px;
+    border-radius: 50px;
+}
+
+.sec2-div4
+{
+    background-color: #e3b375;
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    margin: auto;
+    margin-top: 0px;
+    padding-top: 20px;
+    height: 80px;
+    width: 100px;
+    border-radius: 50px;
+}
+
+.sec2-div1 h4
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: justify;
+    color: black;
+    position: absolute;
+    left: 80px;
+}
+.sec2-div1 p
+{
+    font-family: 'Poppins', sans-serif;  
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    color: #8b8b99;
+    text-align: center;
+    position: absolute;
+    bottom: 150px;
+    left: 85px;
+}
+
+.sec2-div2 h4
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: justify;
+    color: black;
+    position: absolute;
+    left: 440px;
+}
+.sec2-div2 p
+{
+    font-family: 'Poppins', sans-serif;  
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    color: #8b8b99;
+    text-align: center;
+    position: absolute;
+    bottom: 128px;
+    left: 400px;
+}
+
+.sec2-div3 h4
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: justify;
+    color: black;
+    position: absolute;
+    left: 815px;
+}
+.sec2-div3 p
+{
+    font-family: 'Poppins', sans-serif;  
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    color: #8b8b99;
+    text-align: center;
+    position: absolute;
+    bottom: 108px;
+    left: 740px;
+}
+
+.sec2-div4 h4
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    text-align: justify;
+    color: black;
+    position: absolute;
+    left: 1130px;
+}
+.sec2-div4 p
+{
+    font-family: 'Poppins', sans-serif;  
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    color: #8b8b99;
+    text-align: center;
+    position: absolute;
+    bottom: 128px;
+    left: 1080px;
+}
+
+
+#sec-3-main
+{
+    width: 100%;
+    height: 600px;
+    display: grid;
+    grid-template-columns: 66% 34%;
+}
+
+.sec-3 img
+{
+    height: 600px;
+    width: 100%;    
+}
+
+.sec-3-aside
+{
+    width: 450px;
+    height: 550px;
+    vertical-align: top;
+    padding-right: 9px;
+    display: inline-block;
+    background-image: url("https://edyoda.s3.ap-south-1.amazonaws.com/public/strawberry-white.png");  
+    background-position: left;
+    background-position-x: left;
+    background-position-y: center;
+    background-size: cover;
+    position: relative;
+}
+
+.sec-3-aside h4
+{
+    font-family: 'Poppins', sans-serif;
+    font-size: 44px;
+    font-weight: 600;
+    text-align: center;
+    position: absolute;
+    right: 140px;
+    top: 40px;
+}
+
+.sec-3-aside p
+{
+    font-family: 'Poppins', sans-serif;  
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+    color: #8b8b99;
+    text-align: center;
+    position: absolute;
+    top: 180px;
+    right: 100px;
+    justify-content:stretch;
+}
+
+.text-box
+{
+    font-family: 'Poppins', sans-serif;  
+    width: 180px;
+    height: 45px;
+    text-decoration: none;
+    border: 1px solid #dfe1e5;
+    border-radius: 4px;
+    position: absolute;
+    right: 190px;
+    bottom: 190px;
+}
+.subcribe
+{
+    Background-Color: #f69dad;
+    border: none;
+    height: 45px;
+    width: 140px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif; 
+    color: white;
+    border-radius: 4px;
+    position: absolute;
+    bottom: 135px;
+    right: 230px;
+}
+
+#sec-4
+{   
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color:white;
+    height: 900px;
+}
+
+.address-sec
+{
+    height: 900px;
+    background-color: lightblue;
+}
+
+.get-in-touch
+{
+    height: 900px;
+    background-color: lightcyan;
+}
+
+@media screen and (max-width:768px)
+{
+    
+.main-bg
+{
+    display:block;
+    width:100%;
+    height:100vh;
+    background-image: url("/#");
+    background-position: left;
+    background-size:cover;
+    position: relative;
+}
+}
